@@ -1,0 +1,84 @@
+# Copyright (C) 2022 Lucilio Correia
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Delivery Time for Woocommerce 0.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wc-delivery-time\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-01-17T00:20:16+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+"X-Domain: wc-delivery-time\n"
+
+#. Plugin Name of the plugin
+msgid "Delivery Time for Woocommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://lucilio.net/projects/wc-delivery-time"
+msgstr ""
+
+#. Description of the plugin
+msgid "Shows delivery time for WooCommerce products."
+msgstr ""
+
+#. Author of the plugin
+msgid "Lucilio Correia"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://lucilio.net"
+msgstr ""
+
+#. translators: %d is replaced with the number of days
+#: display.php:54
+msgid "Delivery time: %d day"
+msgid_plural "Delivery time: %d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: post-meta.php:34
+#: settings.php:23
+#: settings.php:37
+msgid "Delivery Time"
+msgstr ""
+
+#: post-meta.php:40
+msgid "Delivery time for this product in days. Default value will be displayed if value is set to 0. Set to -1 for hiding delivery time info."
+msgstr ""
+
+#: settings.php:39
+msgid "Shows delivering time on woocommerce products"
+msgstr ""
+
+#: settings.php:43
+msgid "Delivery time"
+msgstr ""
+
+#: settings.php:46
+msgid "Default delivery time for products"
+msgstr ""
+
+#: settings.php:50
+msgid "Display on"
+msgstr ""
+
+#: settings.php:52
+msgid "Product archive page"
+msgstr ""
+
+#: settings.php:58
+msgid "Single product page"
+msgstr ""
+
+#: settings.php:63
+msgid "Color"
+msgstr ""
+
+#: settings.php:66
+msgid "Color to delivery time display font"
+msgstr ""

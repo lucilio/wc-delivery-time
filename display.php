@@ -48,7 +48,15 @@ function display_delivery_time() {
 
     # set color and text to display
     $display_color = get_option( 'delivery_time_color', 'inherit' );
-    $display_text = sprintf( __( 'Delivery time: %d days', 'wc-delivery-time' ), $delivery_time );
+
+    $display_text = sprintf(
+        /* translators: %d is replaced with the number of days */
+        _n( 'Delivery time: %d day',
+            'Delivery time: %d days',
+            $delivery_time,
+            'wc-delivery-time' ),
+        $delivery_time // replacement sprintf
+    );
 
     # replace display text if $delivery_time is set to -1
     if( $delivery_time == -1 ) {
